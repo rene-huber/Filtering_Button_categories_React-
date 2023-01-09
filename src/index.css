@@ -1,0 +1,9 @@
+body {background-color: blanchedalmond;}
+
+.btn_filter{
+  display: flex;
+  background-color: rgb(88, 88, 88);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
