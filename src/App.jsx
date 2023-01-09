@@ -22,16 +22,6 @@ function App() {
   }, []);
 
 
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     const response = await fetch('http://localhost:8007/api/posts/');
-  //     const data = await response.json();
-  //     setPost(data.docs);
-  //     // console.log(data)
-  //   }
-
-  //   fetchData();
-  // }, []);
 
   if (post === null) {
     return <p>Loading data...</p>;
