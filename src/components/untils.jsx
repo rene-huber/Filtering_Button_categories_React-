@@ -1,11 +1,15 @@
 export const categories = [
     {
         label: 'All',
-        value: 'all',
+        value: 'All',
       },
       {
         label: 'Wordpress',
         value: 'Wordpress',
+      },
+      {
+        label: 'React',
+        value: 'React',
       }
     // {
     //     'name': 'All',

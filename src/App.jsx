@@ -9,7 +9,7 @@ function App() {
   const [filterPost, setFilterPost] = useState([]);
 
   const fetchData = async () => {
-    const response = await fetch(`http://localhost:8007/api/posts`);
+    const response = await fetch(`https://cms-server.rene-huber.eu/api/posts`);
     const data = await response.json();
      setPost(data.docs);
      setFilterPost(data.docs);

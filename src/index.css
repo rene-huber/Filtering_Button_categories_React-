@@ -7,3 +7,8 @@ body {background-color: blanchedalmond;}
   justify-content: center;
   gap: 1rem;
 }
+
+.active {
+  background: black;
+  color: white;
+}

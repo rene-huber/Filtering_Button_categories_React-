@@ -4,7 +4,7 @@ import { PostsContext } from "../App";
 
 
 function ButtonFilters() {
-const [tabActive, setTabActive] = useState("all")
+const [tabActive, setTabActive] = useState("All")
 const { post , setFilterPost} = useContext(PostsContext)
 
 const handleClickFilter = (value) =>{
@@ -23,6 +23,7 @@ const handleClickFilter = (value) =>{
     <div className="btn_filter">
       {categories.map((item) => (
         <button key={item.value}
+        className={tabActive === item.value ? "active" : undefined}
         onClick={()=> handleClickFilter(item.value)}
         >
         {item.label}</button>
